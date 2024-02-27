@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            text-decoration: none;
+            color: white;
+        }
+        nav {
+            background-color: rgb(74, 74, 240);
+            height: 50px;
+            position: sticky;
+            top: 0;
+        }
+        label.logo{
+            line-height: 50px;
+            margin-left: 25px;
+            font-size: 30px;
+        }
+        ul {
+            float: right;
+            margin-right: 20px;
+        }
+        nav ul li{
+            display: inline-block;
+            line-height: 50px;
+            margin: 0px 20px;
+        }
+        nav ul li a {
+            /* padding: 30px 10px; */
+            padding: 10px;
+        }
+        a.active,a:hover {
+            background-color: rgb(136, 136, 244);
+        }
+
+        section {
+            background-image: linear-gradient(rgba(0, 0, 50, 0.8), rgba(0, 0, 50, 0.8)), url(background.png);
+            height: calc(100vh - 50px);
+        }
+
+        footer {
+            background-color: black;
+            text-align: center;
+            height: 50px;
+            line-height: 50px;
+            position: sticky;
+            bottom: 0;
+        }
+        h1{
+            position: absolute;
+            top: 53px;
+        }
+        .box1, h1{
+            color: black;
+            background-color: white;
+            width: 25%;
+            float: left;
+            margin-top: 300px;
+        }
+        .secondSection {
+            background-image: linear-gradient(rgba(0, 0, 50, 0.8), rgba(0, 0, 50, 0.8)), url(background.png);;
+            height: calc(100vh - 50px);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <label class="logo">SwapnilB</label>
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#others">Others</a></li>
+        </ul>
+    </nav>
+    <section>
+        <!-- <div class="box1">
+            <h1>About Us</h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis magnam sunt non incidunt possimus impedit consequuntur, cumque expedita praesentium vitae dolore mollitia dicta culpa fugiat dolorem doloremque. Omnis laudantium alias animi, doloribus ipsum aut ea, optio, modi nostrum cumque reprehenderit facilis nesciunt amet? Ducimus, porro! Commodi dicta incidunt et veniam cumque! Laudantium esse beatae repudiandae? Quisquam quis in architecto perferendis repudiandae numquam, sed nisi suscipit quos nemo quibusdam ab nulla quia earum veritatis, expedita repellat dolores, adipisci dolorum! Accusamus neque dignissimos a? Aut atque corrupti totam placeat architecto ut, dolore eaque. Nemo nesciunt dignissimos fuga ex sunt expedita cum pariatur.
+        </div> -->
+    </section>
+    <section class="secondSection">
+
+    </section>
+    <footer>
+        &copy;All rights are reservied 2023-2024
+    </footer>
+</body>
+</html>
